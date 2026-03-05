@@ -1,0 +1,142 @@
+{
+  "_args": [
+    [
+      "@edenjs/cli@1.5.16",
+      "/Users/vincent/Documents/GitHub/ausfund-my-profile-nz"
+    ]
+  ],
+  "_development": true,
+  "_from": "@edenjs/cli@1.5.16",
+  "_id": "@edenjs/cli@1.5.16",
+  "_inBundle": false,
+  "_integrity": "sha512-ZKQu5lTuxfIqgnEavNc2MvfLGYlGc7b8g2unZnfij1UUn0OKnTJB+sI9/PLAVEMi7hddcKdJ2pwsaLs7EmX95g==",
+  "_location": "/@edenjs/cli",
+  "_phantomChildren": {
+    "@ampproject/remapping": "2.3.0",
+    "@jridgewell/resolve-uri": "3.1.1",
+    "@jridgewell/sourcemap-codec": "1.4.15",
+    "ansi-styles": "3.2.1",
+    "chalk": "2.4.2",
+    "debug": "4.3.4",
+    "decamelize": "1.2.0",
+    "gensync": "1.0.0-beta.2",
+    "globals": "11.12.0",
+    "graceful-fs": "4.2.11",
+    "inherits": "2.0.4",
+    "js-tokens": "4.0.0",
+    "json5": "2.2.3",
+    "jsonfile": "4.0.0",
+    "lru-cache": "5.1.1",
+    "on-headers": "1.0.2",
+    "p-try": "2.2.0",
+    "picocolors": "1.0.0",
+    "readable-stream": "2.3.8",
+    "require-directory": "2.1.1",
+    "set-blocking": "2.0.0",
+    "uid-safe": "2.1.5",
+    "universalify": "0.1.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@edenjs/cli@1.5.16",
+    "name": "@edenjs/cli",
+    "escapedName": "@edenjs%2fcli",
+    "scope": "@edenjs",
+    "rawSpec": "1.5.16",
+    "saveSpec": null,
+    "fetchSpec": "1.5.16"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@edenjs/cli/-/cli-1.5.16.tgz",
+  "_spec": "1.5.16",
+  "_where": "/Users/vincent/Documents/GitHub/ausfund-my-profile-nz",
+  "author": {
+    "name": "Alex Taylor",
+    "email": "alex@edenup.com",
+    "url": "EdenCoder"
+  },
+  "bin": {
+    "edenjs": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eden-js/eden/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alex Taylor",
+      "email": "alex@edenup.com",
+      "url": "EdenCoder"
+    },
+    {
+      "name": "installgen2",
+      "email": "gen2@gen2.space",
+      "url": "https://gen2.space/"
+    }
+  ],
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@edenjs/glob": "^1.0.0",
+    "@edenjs/model": "^1.12.4",
+    "@edenjs/session-store": "0.0.2",
+    "app-module-path": "^2.2.0",
+    "babelify": "^10.0.0",
+    "body-parser": "^1.19.0",
+    "browserify": "^16.2.3",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.4",
+    "deepmerge": "^3.2.0",
+    "directory-tree": "^2.2.3",
+    "dot-prop": "^5.0.0",
+    "dot-prop-immutable": "^1.5.0",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "extract-comments": "^1.1.0",
+    "fs-extra": "^8.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-header": "^2.0.7",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "multer": "^1.4.1",
+    "nconf": "^0.10.0",
+    "pretty-error": "^2.1.1",
+    "pretty-hrtime": "^1.0.3",
+    "response-time": "^2.3.2",
+    "serialize-error": "^4.1.0",
+    "through2": "^3.0.1",
+    "uuid": "^3.3.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1",
+    "winston": "^3.2.1",
+    "yargonaut": "^1.1.4",
+    "yargs": "^13.2.4"
+  },
+  "description": "Web Application Framework built on Express.js, Redis and RiotJS",
+  "devDependencies": {
+    "@edenjs/eslint-config-eden": "^2.0.14",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "homepage": "https://edenjs.com/",
+  "license": "(MIT OR Apache-2.0)",
+  "name": "@edenjs/cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eden-js/eden.git"
+  },
+  "version": "1.5.16"
+}
